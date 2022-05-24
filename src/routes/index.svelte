@@ -1,5 +1,7 @@
 <!-- javascript -->
 <script>
+	import { fetchPokemon } from '/src/store/pokestore';
+
 	import PokemanCard from '/src/components/pokemanCard.svelte';
 	import { pokemon } from '/src/store/pokestore';
 
